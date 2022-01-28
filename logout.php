@@ -1,0 +1,12 @@
+<?php
+//php code for deleting session
+session_start();
+unset($_SESSION['admin']);
+
+header("Location:admin.php");
+
+
+
+
+
+?>
